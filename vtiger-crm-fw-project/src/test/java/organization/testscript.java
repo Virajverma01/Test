@@ -21,7 +21,8 @@ public class testscript {
 		System.out.println("URL: " + util.getCurrentUrl());
 		System.out.println("Page Source length: " + util.getPageSource().length());
 		System.out.println("Window Position: " + util.getPosition());
-
+		  
+		
 		// ---------------- Element Methods ----------------
 		WebElement searchBox = util.findByXpath("//input[@type='search']");
 		util.clearAndType(searchBox, "WebDriver");

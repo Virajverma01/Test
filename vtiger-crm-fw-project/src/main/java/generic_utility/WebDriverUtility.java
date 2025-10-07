@@ -208,7 +208,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 	    }
 
 	    public void scrollIntoView(WebElement element) {
-	        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+	    	JavascriptExecutor jse = (JavascriptExecutor) driver;
+	        jse.executeScript("arguments[0].scrollIntoView(true);", element);
 	    }
 
 	    public void scrollBy(int x, int y) {

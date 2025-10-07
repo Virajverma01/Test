@@ -32,7 +32,8 @@ public class test {
 		Thread.sleep(3000);
 
 		String name = "Wipro";
-WebElement orgName = driver.findElement(By.cssSelector("input[name='accountname']"));
+		
+        WebElement orgName = driver.findElement(By.cssSelector("input[name='accountname']"));
 
 		orgName.sendKeys(name);
 
