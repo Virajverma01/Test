@@ -1,43 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Account Is Created!!]]>
-    </line>
-    <line>
-      <![CDATA[Account is Modified ]]>
-    </line>
-    <line>
-      <![CDATA[Account is Deleted ]]>
-    </line>
   </reporter-output>
-  <suite started-at="2025-10-09T00:40:47 PDT" name="Default suite" finished-at="2025-10-09T00:40:47 PDT" duration-ms="292">
+  <suite started-at="2025-10-30T14:47:37 PDT" name="Default suite" finished-at="2025-10-30T14:47:37 PDT" duration-ms="148">
     <groups>
     </groups>
-    <test started-at="2025-10-09T00:40:47 PDT" name="Default test" finished-at="2025-10-09T00:40:47 PDT" duration-ms="292">
-      <class name="testNG.DependOnMethods">
-        <test-method signature="createAccount()[pri:0, instance:testNG.DependOnMethods@384ad17b]" started-at="2025-10-09T00:40:47 PDT" name="createAccount" finished-at="2025-10-09T00:40:47 PDT" duration-ms="52" status="PASS">
+    <test started-at="2025-10-30T14:47:37 PDT" name="Default test" finished-at="2025-10-30T14:47:37 PDT" duration-ms="148">
+      <class name="Listenerss.JustToProve">
+        <test-method is-config="true" signature="bs()[pri:0, instance:Listenerss.JustToProve@35cabb2a]" started-at="2025-10-30T14:47:37 PDT" name="bs" finished-at="2025-10-30T14:47:37 PDT" duration-ms="36" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Account Is Created!!]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- createAccount -->
-        <test-method signature="modifyAccount()[pri:0, instance:testNG.DependOnMethods@384ad17b]" started-at="2025-10-09T00:40:47 PDT" name="modifyAccount" finished-at="2025-10-09T00:40:47 PDT" depends-on-methods="testNG.DependOnMethods.createAccount" duration-ms="12" status="PASS">
+        </test-method> <!-- bs -->
+        <test-method signature="case1()[pri:0, instance:Listenerss.JustToProve@35cabb2a]" started-at="2025-10-30T14:47:37 PDT" name="case1" finished-at="2025-10-30T14:47:37 PDT" duration-ms="38" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Account is Modified ]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- modifyAccount -->
-        <test-method signature="deleteAccount()[pri:0, instance:testNG.DependOnMethods@384ad17b]" started-at="2025-10-09T00:40:47 PDT" name="deleteAccount" finished-at="2025-10-09T00:40:47 PDT" depends-on-methods="testNG.DependOnMethods.modifyAccount" duration-ms="8" status="PASS">
+        </test-method> <!-- case1 -->
+        <test-method is-config="true" signature="as()[pri:0, instance:Listenerss.JustToProve@35cabb2a]" started-at="2025-10-30T14:47:38 PDT" name="as" finished-at="2025-10-30T14:47:38 PDT" duration-ms="5" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Account is Deleted ]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- deleteAccount -->
-      </class> <!-- testNG.DependOnMethods -->
+        </test-method> <!-- as -->
+      </class> <!-- Listenerss.JustToProve -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
